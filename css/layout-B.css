@@ -1,0 +1,509 @@
+body {
+	background:white;
+	border-left: 3px solid white;
+	color: black;
+	margin: 0;
+	padding: 0;
+}
+
+td { /*background: transparent; */ color: black;}
+
+body, td {
+	font-family : Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+div.accesskeys {
+	font-size: 0.05em;
+	margin: 0;
+	padding: 0;
+	height: 0px;
+}
+
+/* -------------------------------- */
+/* used to clear float declarations */
+/* -------------------------------- */
+div.clearing {
+	height: 0;
+	clear: both;
+	padding: 0;
+	margin: 0;
+	font-size: 0;
+	visibility: hidden;
+}
+/*
+div#pageLayout {
+	clear:both;
+	margin: 0px;
+	padding: 0;
+	position: relative;
+	text-align:left;
+}*/
+
+/*div#pageLayout div.clearing {display:none !important;}*/
+
+/* -------------------- */
+/*  CLF2 - SPLASH PAGE  */
+/* -------------------- */
+/* these styles are taken from the canada.gc.ca website */
+.mcontainter {
+	width: 620px;
+	background-color: #FFF;
+	color: black;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+div.core {
+	padding: 20px 10px 0px 10px;
+}
+
+.fip {
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.buttons {
+	float: left;
+	width: 76%;
+	margin-top: 10px;
+}
+
+.lb {
+	float: left;
+	width: 7.5em;
+	height: 0.75em;
+	margin-right: 1.88em;
+	margin-top: 20px;
+}
+
+.lb a,.lb a:visited,.lb a:hover {
+	color: #FFF;
+/*	background: #BF0000 url("/CommonWebSol/images/buttonRed4.gif") bottom repeat-x; */
+	background: #F00;
+	text-decoration: none;
+	width:100%;
+	float: left;
+}
+
+.langbtn {
+/*	background: #BF0000 url("/CommonWebSol/images/buttonRed4.gif") bottom repeat-x; */
+	background-color: #F00;
+	border-top: #F66 2px solid;
+	border-left: #F66 2px solid;
+	border-bottom: #C33 2px solid;
+	border-right: #C33 2px solid;
+	color: #FFF;
+	font-weight: bold;
+	height: 1.0em;
+	padding: 3px 0 6px 0;
+	text-align: center;
+
+}
+
+.wm {
+	text-align: right;
+	float: right;
+	margin-top: 30px;
+	width: 20%;
+}
+
+.imptext {
+	clear: both;
+	padding-top: 0.65em;
+}
+
+.imptext a, .imptext a:visited {
+	color: #039;
+	background-color: #FFF;
+}
+
+#inlft, #inrgt {
+	float: left;
+	width: 9.38em;
+	padding-bottom: 1.25em;
+}
+
+#inlft a, #inlft a:visited, #inrgt a, #inrgt a:visited, .impnot {
+	/*font-size: 9.5pt;*/
+	font-size: 0.80em;
+}
+
+
+
+/* ------------------- */
+/*  Department Header  */
+/* ------------------- */
+div#headerGov{
+	margin-right: auto;
+	margin-left: auto;
+	width: 761px; /* this value can be converted to 100 percent for dynamic width page */
+}
+
+/* -------------- */
+/*  Banner Area   */
+/* -------------- */
+div#siteBanner {
+	clear:both;
+	padding:0;
+	position: relative;
+	text-align: center;
+	height: 80px;
+	margin-top: 2.1em;
+}
+
+img.coa, img.lf {
+	width: 65px;
+	height: 65px;
+	position: relative;
+	margin-top: -2.2em;
+	margin-bottom: -0.34em;
+	padding: 0;
+}
+
+p.main, div#websiteTitle {
+	background: transparent;
+	color: white;
+	font-family: Verdana, Arial;
+	font-weight: bold;
+	font-size: 17.5pt;
+	margin: 0;
+	padding: 0;
+}
+a.helpmenu {
+   color: white;
+   font-family:"Trebuchet MS", Verdana;
+   font-size:12px;
+   font-weight:900;
+   position: relative;
+   top: -20px;
+   left: 330px;
+}
+
+p#siteuri {
+	background: transparent;
+	color: red;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: lighter;
+	font-size: 10.5pt;
+	margin: 0;
+	padding: 0;
+}
+
+/* -------------------------------------- */
+/*    NAVIGATION TRAIL / BREAD CRUMBS     */
+/* -------------------------------------- */
+div#navTrail {
+	border-bottom: 1px solid white;
+	clear:both;
+	padding: 0;
+	margin-top:0px;
+	margin-right: auto;
+	margin-bottom:0;
+	margin-left: auto;
+	width: 761px;  /* this value can be converted to 100 percent for dynamic width page */
+
+}
+
+
+div#navTrail ul {
+	display:block;
+	font-size: 0.65em;
+	height: 18px;
+	list-style: none;
+	margin: 0 0 0 4px;
+	padding: 0;
+}
+
+div#navTrail ul li {
+	display: block;
+	float: left;
+	margin:0;
+	padding: 0;
+}
+
+div#navTrail ul li#navTrailText {
+	display: block;
+	padding: 2px 0px 0px 5px;
+}
+
+li#navTrailText a, li#navTrailText a:visited  {
+	background:transparent;
+	color:black;
+}
+
+div#navTrail ul li a, div#navTrail ul li a:visited {
+	clear: both;
+	display:block;
+	margin: 0;
+	padding: 2px 0px 0px 17px;
+	text-decoration:none;
+	white-space: nowrap;
+}
+
+div#navTrail ul li a:hover {
+	text-decoration:underline;
+}
+
+li#navTrailHome a, li#navTrailHome a:visited  {
+	display: block;
+	padding: 1px 3px 0px 0px;
+	text-decoration:none;
+}
+
+li#navTrailLink a, li#navTrailLink a:visited {
+	display: block;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+
+
+
+/* ------------------------- */
+/*   Page Layout Components  */
+/* ------------------------- */
+#outerWrapper {
+	clear:both;
+	padding: 0;
+ 	width:761px; /*this value can be converted to 100 percent for dynamic width page */ /* this value can be converted to 100 percent for dynamic width page */
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom:0;
+	margin-left: auto;
+}
+
+#innerWrapper {
+	font-size: 0.70em;
+	margin: 0;
+	padding: 2px 0 0 0;
+}
+
+
+#container {
+	float: left;
+	margin-right: -200px;
+	width: 100%;
+}
+
+/* This is for 3 column layout */
+div#content {
+	margin: 0 210px 0 0;
+	padding: 0;
+}
+
+
+/* This is for 2 column layout */
+div#contentFull {
+	margin: 0;
+	padding: 0;
+}
+
+div.content td{
+	margin: 0;
+	padding: 1px 2px 0 3px;
+}
+
+
+
+
+
+
+/* -------------- */
+/*  New Layout    */
+/* -------------- */
+#columnOne {
+	/* background: #EEEEBB; */
+	border: 0px solid red;
+	float: left;
+	margin: 0 0 10px 0;
+	padding:0px;
+	width: 150px;
+}
+
+#columnTwo {
+	/* background: #EEEEBB; */
+	border: 0px solid green;
+	margin: 0 0 10px 160px; /* margin should be 150px but add 2px for right and left border and 10px for left and right padding */
+	padding: 0px;
+}
+
+#columnTwo table {
+	width: 98%;
+}
+
+#columnThree {
+	border: 0px solid red;
+	/* background: #EEEEBB; */
+	float: right;
+	font-size: 0.90em;
+	margin: 0 0 10px 0;
+	padding: 0px;
+	width: 198px; /* should be 200px but minus 2 extra pixels for right and left border and minu 10px for left and right padding */
+}
+
+/* ------------------- */
+/*   Content Layouts   */
+/* ------------------- */
+/* Floated Left Column Fixed Width*/
+div.rColFloat200 {
+	margin: 0;
+	padding: 0;
+	font-size: 0.85em;
+	float:right;
+	width: 200px;
+}
+
+/* Floated Left Column Fixed Width */
+div.lColFloat200 {
+	float:left;
+	margin: 0 10px 0 0;
+	padding: 0;
+	width: 200px;
+}
+
+/* Fluid Width Right Column + Floated Left Column */
+div.rColFluid {
+	margin: 0 0 0 210px;
+	padding: 0;
+}
+
+/* Fluid Width Left Column + Floated Right Column */
+div.lColFluid {
+	margin: 0 215px 0 0;
+	padding: 0;
+}
+
+/* Fluid Width Center Column + Floated Right Column + Floated Left Column */
+div.mColFluid {
+	margin: 0 210px 0 210px;
+	padding: 0;
+}
+
+/* 50% Width Right Column + 50% Width Left Column */
+div.rCol50percent {
+	float:right;
+	margin: 0;
+	padding: 0;
+	width:49%;
+}
+
+/* 50% Width Left Column + 50% Width Right Column */
+div.lCol50percent {
+	margin: 0 1% 0 0%;
+	padding: 0;
+	width:49%;
+}
+
+
+/* -------------- */
+/*     Footer     */
+/* -------------- */
+div#footer {
+	clear:both;
+	font-size: 0.7em;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px 0px 5px 0px;
+	width: 761px; /* this value can be converted to 100 percent for dynamic width page */
+}
+
+div.footerInfo {
+	border-top: 15px solid #DDD;
+	clear:both;
+	height: 10px;
+	padding: 5px 2px 5px 2px;
+}
+
+div#footer ul {
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+div#footer li {
+	list-style: none;
+}
+
+li#lastupdate {
+	float:left;
+}
+
+li#notices {
+	float:right;
+}
+
+li#topofpage {
+	display: inline;
+	padding: 0 0 0 20px;
+}
+
+li#topofpage a, li#topofpage a:visited {
+ 	display: inline;
+	padding: 0 20px 0 0;
+	text-decoration:none;
+}
+
+li#topofpage a:hover {
+	background:transparent;
+	color: black;
+	text-decoration: underline;
+}
+
+
+
+
+
+/* --------------------------------------- */
+/* Default Values for Footer Button Layout */
+/* --------------------------------------- */
+div.footerFormatPage {
+	background: transparent;
+	color:black;
+	clear:both;
+	height: 10px;
+	padding: 5px 2px 0px 2px;
+	width: 100%;
+}
+
+li#textVersion {
+	float:left;
+	font-weight:bold;
+	padding: 0 0 0 10px;
+	text-align:left;
+	width: 10em;
+}
+
+li#textVersion a, li#textVersion a:visited {
+	display: block;
+	padding: 0 0 0 20px;
+	text-decoration: none;
+}
+
+li#textVersion a:hover {
+	padding: 0 0 0 20px;
+	text-decoration: underline;
+}
+
+li#printVersion {
+	float:right;
+	font-weight:bold;
+	padding: 0 10px 0 0;
+	width: 5em;
+	white-space: nowrap;
+}
+
+li#printVersion a, li#printVersion a:visited {
+	display: block;
+	padding: 0 30px 0 0;
+	text-decoration: none;
+
+}
+
+li#printVersion a:hover {
+	padding: 0 30px 0 0;
+	text-decoration: underline;
+}

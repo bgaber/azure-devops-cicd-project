@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset='utf-8'>
+	<title>Still photo capture and process</title>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"
+      integrity="sha256-7LkWEzqTdpEfELxcZZlS6wAx5Ff13zZ83lYO2/ujj7g=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"
+      integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw=" crossorigin="anonymous"></script>
+    
+    <link rel='stylesheet' type='text/css' href='https://code.jquery.com/ui/1.11.4/themes/black-tie/jquery-ui.css' />
+    <link rel="stylesheet" href="/css/main.css" type="text/css" media="all">
+    
+    <link rel="SHORTCUT ICON" href="/images/favicon.ico"/>
+    
+    <script src="/javascript/capture.js"></script>
+    <script src="/javascript/handle-new-image.js"></script>
+    
+    <script language=JavaScript>
+    $(document).ready(function() {
+        $("#upload_history").button({
+           icons: {
+              primary: "ui-icon-gear",
+              secondary: "ui-icon-gear"
+           }
+        });
+    });
+    </script>
+
+    <style type="text/css"><!--
+    body {
+       font-family:Verdana, Trebuchet MS;
+       font-size:12px;
+    }
+
+    .ui-dialog .ui-dialog-titlebar, .ui-dialog .ui-dialog-buttonpane, .ui-dialog .ui-dialog-content {
+        font-size: 12px;
+    }
+
+    .ui-widget button {
+        font-size: 14px;
+    }
+    --></style>
+</head>
+<body>
+<div class="contentarea">
+	<h1>
+		Still photo capture
+	</h1>
+	<p>
+		Using your built-in webcam, fetch an image from that stream, create a PNG using that image and save to AWS S3.
+	</p>
+  <div class="camera">
+    <video id="video">Video stream not available.</video>
+    <button id="startbutton">Take photo</button> 
+  </div>
+  <canvas id="canvas">
+  </canvas>
+  <div class="output">
+    <img id="photo" alt="The screen capture will appear in this box."> 
+  </div>
+</div>
+
+<div class="stdtext" id='name_of_file'></div>
+<div class="stdtext" id='psurl_result'></div>
+<div class="stdtext" id='upload_result'></div>
+<div style='visibility: hidden;' id='analysis_button'>
+    <center>
+        <form METHOD='GET' ACTION='/upload-history.html'>
+            <p>
+                <button id='upload_history'>Click Here To See Your Image Analysis</button>
+            </p>
+        </form>
+    </center>
+</div>
+<div id='dialog-message' title='Alert'></div>
+
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset=utf-8>
+   <title>Brian's Azure DevOps CICD Project</title>
+
+   <script src="https://code.jquery.com/jquery-1.11.3.min.js"
+      integrity="sha256-7LkWEzqTdpEfELxcZZlS6wAx5Ff13zZ83lYO2/ujj7g=" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"
+      integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw=" crossorigin="anonymous"></script>
+    
+   <link rel='stylesheet' type='text/css' href='https://code.jquery.com/ui/1.11.4/themes/black-tie/jquery-ui.css' />
+   <link rel="SHORTCUT ICON" href="/images/favicon.ico"/>
+
+<SCRIPT LANGUAGE=JavaScript>
+var newwindow;
+function popnuwin(url)
+{
+	newwindow=window.open(url,'Azure-DevOps','resizable,status,scrollbars,height=740,width=960');
+	if (window.focus) {newwindow.focus()}
+}
+
+$(document).ready(function() {
+	$("#take_a_picture").button({
+	   icons: {
+	      primary: "ui-icon-image"
+	   }
+	});
+    $("#upload_a_picture").button({
+	   icons: {
+	      primary: "ui-icon-arrowthickstop-1-n"
+	   }
+	});
+    $("#upload_history").button({
+	   icons: {
+	      primary: "ui-icon-contact"
+	   }
+	});
+});
+
+</SCRIPT>
+
+<STYLE TYPE="text/css"><!--
+body {
+   font-family:Verdana, Trebuchet MS;
+   font-size:12px;
+}
+
+li {
+   font-family:Trebuchet MS, Verdana;
+   font-size:12px;
+}
+
+p {
+   font-family:Trebuchet MS, Verdana;
+   font-size:14px;
+}
+
+.ui-dialog .ui-dialog-titlebar, .ui-dialog .ui-dialog-buttonpane, .ui-dialog .ui-dialog-content {
+	font-size: 12px;
+}
+
+.ui-widget button {
+	font-size: 14px;
+}
+--></STYLE>
+   <!--WXO STYLESHEET CSS PLACEHOLDER-->
+    <script type="text/javascript">		this.focus();</script> <!-- template --><link rel="stylesheet" href="/css/layout-B.css" type="text/css" /><link rel="stylesheet" href="/css/websolution-CLF2-B.css" type="text/css" /><link rel="stylesheet" href="/css/base.css" type="text/css" /><link rel="stylesheet" href="/css/wxo.css" type="text/css" />
+   <!--END WXO STYLESHEET CSS PLACEHOLDER-->
+</head>
+<body>
+    <!--WXO STYLESHEET HEADER PLACEHOLDER-->
+    <div class="page">
+      <div class="core">
+         <div id="headerGov" title="Brian's Multi-Cloud Project">
+            <div id="siteBanner">
+               <img src="/images/lf.png" width="63" height="65" class="lf" alt="" />
+               <div id="websiteTitle">
+                  <span>Brian's Azure DevOps CICD Project</span>
+               </div>
+            </div> <!-- siteBanner -->
+            <div id="headerMenu" title="Navigation Links">
+               <ul> 			<li id="headerMenuOne"><a href="https://briangaber.hashnode.dev/azure-devops-cicd-project" target="_blank" rel="noopener noreferrer" title="Blog">Blog</a></li>
+                  				<li id="headerMenuTwo"><a href="#">&nbsp</a></li>
+                  				<li id="headerMenuThree"><a href="https://github.com/bgaber/azure-devops-cicd-project/README.md" target="_blank" rel="noopener noreferrer" title="README">README</a></li>
+                  				<li id="headerMenuFour"><a href="javascript:popnuwin('');" title="User Guide">User Guide</a></li>
+                  				<li id="headerMenuFive"><a title="Support" href="mailto:brian.gaber@mail.com?subject=Cloud Save Support">Cloud Save Support</a></li>
+                  				<li id="headerMenuSix"><a href="#">&nbsp</a></li>
+               </ul>
+            </div> <!-- headerMenu -->
+         </div>  <!-- core --><!-- Breadcrumbs (mini-navigation) Trail  -->	<!-- Container DIVs  -->
+      </div>
+   </div>
+   <!--END WXO STYLESHEET HEADER PLACEHOLDER-->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<center>
+   <font size=+1 color=navy>Brian's Azure DevOps CICD Project</font>
+
+   <p>
+      This Azure DevOps project uses Azure DevOps Pipeline, ARM Templates, App Service, Front Door, Blob Storage, Cosmos DB, and Virtual Network services from Azure.
+   </p>
+   
+   <br>
+   <br>
+   <br>
+
+   <form METHOD="GET" ACTION="/snap-a-picture.html">
+   	  <p>
+		   <button id='take_a_picture'>Snap A New Picture</button>
+      </p>
+   </form>
+   <form METHOD="GET" ACTION="/upload-history.html">
+      <p>
+         <button id='upload_history'>Upload History</button>
+      </p>
+   </form>
+</center>
+
+</body>
+</html>
