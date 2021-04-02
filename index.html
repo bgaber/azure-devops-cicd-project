@@ -21,17 +21,12 @@ function popnuwin(url)
 }
 
 $(document).ready(function() {
-	$("#take_a_picture").button({
+	$("#create_new_user").button({
 	   icons: {
 	      primary: "ui-icon-image"
 	   }
 	});
-    $("#upload_a_picture").button({
-	   icons: {
-	      primary: "ui-icon-arrowthickstop-1-n"
-	   }
-	});
-    $("#upload_history").button({
+   $("#show_users").button({
 	   icons: {
 	      primary: "ui-icon-contact"
 	   }
@@ -111,14 +106,14 @@ p {
    <br>
    <br>
 
-   <form METHOD="GET" ACTION="/snap-a-picture.html">
+   <form METHOD="GET" ACTION="/create-new-user.php">
    	  <p>
-		   <button id='take_a_picture'>Snap A New Picture</button>
+		   <button id='create_new_user'>Create New User</button>
       </p>
    </form>
-   <form METHOD="GET" ACTION="/upload-history.html">
+   <form METHOD="GET" ACTION="/show-users.html">
       <p>
-         <button id='upload_history'>Upload History</button>
+         <button id='show_users'>Show Users</button>
       </p>
    </form>
 </center>

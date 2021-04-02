@@ -1,28 +1,24 @@
-function handleData(json, imBlob) {
-    // Output S3 Pre-Signed URL to webpage
-    //$("#psurl_result").html('<b>PreSigned URL:</b> ' + json.fields);
-    var button_html = "<center><form METHOD='GET' ACTION='/upload-history.html'><p><button id='upload_history'>Click Here To See Your Image Analysis</button></p></form></center>";
-    console.log("Status Return: " + json.status);
-    console.log("PreSign Return: " + json.fields);
+function handleData(imBlob) {
+    const ajax_func_url = "";
+    var button_html = "<center><form METHOD='GET' ACTION='/show-users.html'><p><button id='show_users'>Click Here To Show User Details</button></p></form></center>";
     $.ajax({
-        headers: { 'x-amz-acl': 'public-read' },
-        url: json.fields,
+        url: ajax_func_url,
         type: 'PUT',
         contentType: 'image/png',
         data: imBlob,
         processData: false,
         success: function (data) {
-            //$("#analysis_button").show();
-            //$('#analysis_button').css({'display':'visible'});
-            document.getElementById("analysis_button").style.visibility = "visible";
-            //jq_ui_alert('dialog-message', "Successful upload to S3 using pre-signed url.");
-            $("#upload_result").html('<center><b>Upload Result:</b> Success</center>');
+            //$("#details_button").show();
+            //$('#details_button').css({'display':'visible'});
+            document.getElementById("details_button").style.visibility = "visible";
+            //jq_ui_alert('dialog-message', "Successful write to Cosmos DB and/or upload to Azure Storage Blob Container.");
+            $("#upload_result").html('<center><b>Cosmos DB Write and Image Upload Result:</b> Success</center>');
             console.log("Upload Result: Success");
         },
         error: function (xhr, status, errorThrown) {
-            jq_ui_alert('dialog-message', "Unsuccessful upload to S3 using pre-signed url.");
-            $("#upload_result").html('<center><b>Upload Result:</b> Failed</center>');
-            console.log("Upload Result: Failed");
+            jq_ui_alert('dialog-message', "Unsuccessful write to Cosmos DB and/or upload to Azure Storage Blob Container.");
+            $("#upload_result").html('<center><b>Cosmos DB Write and Image Upload Result:</b> Failed</center>');
+            console.log("Cosmos DB Write and Image Upload Result: Failed");
             console.log("Error: " + errorThrown);
             console.log("Status: " + status);
             console.dir(xhr);

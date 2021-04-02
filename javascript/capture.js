@@ -86,12 +86,23 @@
       canvas.height = height;
       context.drawImage(video, 0, 0, width, height);
     
-      var data = canvas.toDataURL('image/png');
-      photo.setAttribute('src', data);
-
-      canvas.toBlob(function (blob) {
-        getPreSignedURL(blob); // hopefully save new image to S3
+      var imgData = canvas.toDataURL('image/png');
+      photo.setAttribute('src', imgData); // for the photo element
+      var dataURL = canvas.toDataURL();
+      $.ajax({
+        type: "POST",
+        url: "/php/saveCanvas2Disk.php",
+        data: {
+          imgBase64: dataURL
+        }
+      }).done(function (o) {
+        console.log('saved');
       });
+
+      // POSSIBLY CAN BE REMOVED, TESTING WILL TELL
+      //canvas.toBlob(function (blob) {
+      //  handleData(blob); // hopefully save new image to S3
+      //});
     } else {
       clearphoto();
     }
