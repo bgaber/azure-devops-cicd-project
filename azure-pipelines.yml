@@ -4,18 +4,25 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/php
 
 trigger:
+<<<<<<< HEAD
 - master
+=======
+- main
+>>>>>>> 9ab94b30147cf499c6aa91a044016acbcc4ab734
 
 pool:
   vmImage: ubuntu-latest
 
 variables:
   phpVersion: 7.2
+<<<<<<< HEAD
   # the name of the service connection that you created above
   serviceConnectionToAzure: "my application connection"
   # the name of your web app here is the same one you used above
   # when you created the web app using the Azure CLI
   appName: "my-app-name-xyz"
+=======
+>>>>>>> 9ab94b30147cf499c6aa91a044016acbcc4ab734
 
 steps:
 - script: |
@@ -29,6 +36,7 @@ steps:
 
 - script: composer install --no-interaction --prefer-dist
   displayName: 'composer install'
+<<<<<<< HEAD
 
 # add these as the last steps (below all the other `task` items under `steps`)
 # to deploy to your app service
@@ -51,3 +59,5 @@ steps:
     appType: webAppLinux
     appName: $(appName)
     package: $(build.artifactstagingdirectory)/**/*.zip
+=======
+>>>>>>> 9ab94b30147cf499c6aa91a044016acbcc4ab734
