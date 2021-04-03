@@ -9,7 +9,7 @@ The objective was achieved by designing and building a DevOps CICD Pipeline usin
 
 Outcome
 -------
-In completing this project I was able to gain real-world skills in Azure Pipelines, App Services, Azure Front Door, Cosmos DB, ARM templates, and YAML configuration.
+In completing this project I was able to gain real-world skills in App Services, Azure Front Door, Cosmos DB, ARM templates, Functions, Azure Pipelines and Azure DevOps Pipeline YAML configuration.
 
 Main Steps
 ----------
@@ -34,6 +34,7 @@ This project was completed in five steps:
 
 Solution
 --------
+![Alt text](readme_images/devops-cicd-project.png?raw=true "Solution Architecture Diagram")
 The final solution is composed of these Azure Services:
 
 | Azure Services Used | Purpose |
