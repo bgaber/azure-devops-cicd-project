@@ -48,7 +48,7 @@ The final solution is composed of these Azure Services:
 | Virtual network | Project requirement |
 | Storage Account | BLOB Storage Container to store JSON, image and audo objects |
 | Application Insights | Monitor Function that writes documents to Cosmos DB |
-| CosmosDB | NoSQL Database that contains the JSON User Objects |
+| CosmosDB | NoSQL Database that contains the JSON formatted User Documents |
 | Function App | Functions to write JSON documents to Cosmos DB and retrieve JSON documents from Cosmos DB |
 | DevOps | CICD of the PHP Web Application |
 
