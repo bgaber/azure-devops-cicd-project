@@ -51,6 +51,6 @@ The final solution is composed of these Azure Services:
 | DevOps | CICD of the PHP Web Application |
 
 
-Example Output
---------------
-![Alt text](images/example-output.png?raw=true "Example Output of Azure DevOps CICD Project")
+Resource Created For This Project (does not include Azure DevOps)
+-----------------------------------------------------------------
+![Alt text](readme_images/cloud-save-rg.png?raw=true "Resource Created For This Project")
