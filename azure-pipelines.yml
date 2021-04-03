@@ -12,10 +12,10 @@ pool:
 variables:
   phpVersion: 7.2
   # the name of the service connection that you created above
-  serviceConnectionToAzure: "my application connection"
+  serviceConnectionToAzure: "cloud-save-svc-conn"
   # the name of your web app here is the same one you used above
   # when you created the web app using the Azure CLI
-  appName: "my-app-name-xyz"
+  appName: "test1-website-name"
 
 steps:
 - script: |
