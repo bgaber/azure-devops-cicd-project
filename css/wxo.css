@@ -1,0 +1,175 @@
+/* ------------------------- */
+/*   Page Layout Components  */
+/* ------------------------- */
+h1, h2, h3, h4, h5, h6 {color:#000;}
+
+div#columnTwo h1 {color:#000;}
+
+#siteBanner {background:url(/images/banner_odow.jpg) top left no-repeat;
+	height: 80px;
+}
+
+#columnTwo {
+	margin: 0 0 10px 150px; /* margin should be 150px but add 2px for right and left border and 10px for left and right padding */
+}
+
+#menu ul {
+	 width: 150px;
+}
+
+div#menu ul#homemenu li {
+	 margin: 0 4px 1px 0;
+	 padding: 2px 0 2px 2px;
+	 background: #eef3e0;
+	 position: relative;
+	 z-index: 1000;
+}
+
+#menu li a {
+	 width: 110px;
+}
+
+/* footer */
+li#textVersion {
+	width: auto;
+}
+
+li#standardVersion {
+	display: block;
+	float:left;
+	font-weight:bold;
+	margin-left: 10px;
+	padding: 0 0 0 0;
+	width: 10em;
+}
+
+li#standardVersion a, li#standardVersion a:visited {
+	background: transparent url("/clf2_ec/commonwebsol/images/odow/toolbox_arrow.png") no-repeat left;
+	color: black;
+	display: block;
+	padding: 0 0 0 20px;
+	text-align:left;
+	text-decoration: none;
+	white-space: nowrap;
+	width: auto;
+}
+
+/* -------------- */
+/* Related Links  */
+/* -------------- */
+/* container for Related Links */
+
+div.relatedLinksBox ul li {
+	margin: 0 ;
+	padding: 3px 0 3px 0;
+}
+
+span.relatedLinksTitle a, span.relatedLinksTitle a:visited, span.relatedLinksTitle a:hover{ 	background:#E9F5D6;  }
+
+/* -------------- */
+/* City  */
+/* -------------- */
+/* container for City */
+div#citynew {float:left; width:99%;font-size:1.2em;margin:0; padding:0; }
+div#citynew2 {float:left; width:450px;margin-left:3px;}
+div.cityFooter {float:left;line-height:0;height:0;}
+div.greenBar {float:left;width:570px;margin-top:10px;}
+div#citybuttons {width:450px;float:right;position:relative;}
+
+/* Graphics 5 days forecast */
+/*  changed
+div#cityf li{ padding-left: 0px; }
+div#f4 { clear: left;}
+*/
+
+
+/*	STATIC trends table, provincial summary and text-only city pages	*/
+hr								{clear:both /* all */;}
+p.toLeftBold					{font-size:0.9em; font-weight:bold; text-align:left;}
+div.toLeft						{float:left;}
+div.toRight						{float:right; margin-top:24px; font-size:0.8em;}
+div#warningBox					{width:600px; background-color:#ff0000; border:2px solid black; margin: 45px 0px 15px 0px; text-align:center;}
+div#watchBox					{width:600px; background-color:#ffff00; border:2px solid black; margin: 45px 0px 15px 0px; text-align:center;}
+div#endedBox					{width:600px; background-color:#74A669; border:2px solid black; margin: 45px 0px 15px 0px; text-align:center;}
+div#warningBox a				{font-weight:bold; color:white; font-size:0.8em;}
+div#watchBox a					{font-weight:bold; color:black; font-size:0.8em;}
+div#endedBox a					{font-weight:bold; color:white; font-size:0.8em;}
+div.theDefListsBox			{width:600px; clear:right; clear:both; border-top:2px groove gray;}
+
+div.theDefListsBox div		{margin-top:10px;}
+
+div.theDefListsBox dl		{margin:0px 0px 0px 22px; font-size:0.8em;}
+/*div.theDefListsBox dl dt	{font-weight:bold; overflow:hidden; padding-bottom:4px;}
+div.theDefListsBox dl dd	{margin: -20px 0 0 175px; padding-bottom:4px;}
+*/
+div.theDefListsBox h2.theTitleH2 {font-size:1.1em;}
+
+.table-display
+{
+
+	margin:0px 0px 0px 22px; font-size:0.8em;
+
+	/*
+	width: 54.1em;
+	margin: 0 0;
+	padding: 0;*/
+	/*font-family: georgia, times, serif;*/
+}
+
+.table-display dt
+{
+	width: 14em;
+	float: left;
+	/* margin-left: 10; */
+	margin: 0 0 0 0;
+	padding: .1em;
+	font-weight: bold;
+	clear: both;
+}
+
+/* hack de commentaire avec un antislash pour ie5 mac \*/
+/* dt { clear: both; } */
+/* end hack */
+
+.table-display dd
+{
+	float: left;
+	width: 32em;
+	margin: 0 10px 0 0;
+	padding: .15em;
+	font-weight: normal;
+}
+
+div#textButtons {width:600px; float:right; clear:both; border-top:2px groove gray; font-size:0.8em;}
+
+/* =============================
+Canada map grapgical version
+---------------------------------- */
+/* MAP TOOLTIPS popups */
+.toolTipBox { display:block; background-color:#FFFEE0; border:1px solid #000; width:130px; min-height:10px;min-width:130px; padding:3px;font-family: Verdana, Arial, sans-serif; font-size:10px; font-weight:bold; z-index:500000;	}
+
+/* =============================
+Canada map text version
+---------------------------------- */
+div.regionLeft { width: 9%; float: left; text-align: left; margin:2px 0px 2px 0px; clear: both; }
+div.regionRight { width: 90%; float: left; text-align: left;margin:2px 0 2px 0; }
+
+#textleft {	float:left;margin:0; width:68%; text-align:left; }
+#textright { float:left;text-align:center;margin:0;width:30%;font-size: 1em; }
+#textright hr { margin-top: 0px; width: 100%; }
+#MarineRegion { margin: 0px 0px 5px 0px; }
+#WorldText  { text-align: left; }
+
+.mapCanada tr.greenrow {background: #cadfaa; word-wrap:break-word}
+.mapCanada tr.whiterow {background: white; word-wrap:break-word}
+
+.mapCanada td.t-left {text-align:left; width:50%; vertical-align:top;}
+.mapCanada td.t-right {text-align:right; width:20%; vertical-align:top;}
+
+caption.title {font-weight:bold; font-size:1.1em}
+
+/* =============================
+For print version only
+---------------------------------- */
+div#footer div#ftrPageDates  {display:none;}
+div#footer div#ftrPageURL  {display:none;}

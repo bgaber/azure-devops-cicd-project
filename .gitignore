@@ -4,6 +4,6 @@ config.py
 *.v*.js
 *.v*.html
 *.v*.css
-*.php
+*.v*.php
 *.pptx
 *.txt

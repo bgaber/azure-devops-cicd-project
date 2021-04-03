@@ -1,0 +1,2232 @@
+body {
+	background: white;
+	color: #222220;
+}
+
+body, td {
+	font-family: Verdana, "Lucida Grande", "Lucida Sans Unicode", Lucida, Arial, Helvetica, sans-serif;
+}
+
+a, a:visited {
+	background: transparent;
+	color: #456002;
+}
+
+a:hover {
+	background: transparent;
+	color: #456002;
+	text-decoration: none;
+}
+
+abbr {
+	border-bottom:1px dashed;
+	cursor:help
+	}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 5px 0;
+}
+
+/* ------------------- */
+/*     Splash Page     */
+/* ------------------- */
+.msgareaalt h1#splashWelcome {
+	background: transparent;
+	color:white !important;
+	font-size: 1.65em !important;
+	white-space: nowrap !important;
+	padding: 50px 50px 0 20px;
+	text-align: right;
+
+}
+/* Custom Splash Page - Website Titles */
+.headcontainer {
+	clear:both;
+	display: block;
+	height: 20px;
+	font-size: 1.3em;
+}
+
+div.headtitleLft, div.headtitleRgt {
+	background:transparent;
+	color:white;
+}
+
+
+
+div#columnTwo h1 {
+	background: transparent;
+	color: #618902;
+	font-size: 1.5em;
+}
+
+div#columnTwo h1 span {
+	background: transparent;
+	color: #618902;
+	display:block;
+	font-size: 0.75em;
+}
+
+h2 {
+	background: transparent;
+	color: #618902;
+	font-size: 1.35em;
+}
+
+h3 {
+	background: transparent;
+	color: #618902;
+	font-size: 1.1em;
+}
+
+h4 {	font-size: 1.10em;}
+
+
+/* -------------------------------------- */
+/*            NAVIGATION TRAIL            */
+/* -------------------------------------- */
+div#navTrail ul {
+	display:block;
+	font-size: 0.65em;
+	height: 18px;
+	list-style: none;
+	margin: 0 0 0 4px;
+	padding: 0;
+}
+
+div#navTrail ul li {
+	background: transparent;
+	color: #618902;
+	display: block;
+	float: left;
+	margin:0;
+	padding: 0;
+}
+
+div#navTrail ul li#navTrailText {
+	background:transparent;
+	color:black;
+	display: block;
+	padding: 2px 0 0 5px;
+}
+
+div#navTrail ul li a, div#navTrail ul li a:visited {
+	clear: both;
+	display:block;
+	margin: 0;
+	padding: 2px 0 0 17px;
+	white-space: nowrap;
+}
+
+li#navTrailHome a, li#navTrailHome a:visited {
+	background: transparent;
+	color: black;
+	display: block;
+	padding: 2px 3px 0 0;
+}
+
+li#navTrailLink a, li#navTrailLink a:visited {
+	background: transparent url(/clf2_ec/commonwebsol/images/odow/breadcrumbsArrowRight.png) 0 50% no-repeat;
+	color: black;
+	display: block;
+	font-weight: bold;
+}
+
+/* - - - - - - - */
+/* Quick Search  */
+/* - - - - - - - */
+div.QSearch {
+	background: #e6ede2;
+	color: black;
+	margin: 0 0 10px 0;
+	padding: 8px 8px 8px 8px;
+	z-index: 100;
+}
+
+div.QSearch h2{
+	background: transparent;
+	color: black;
+	font-size: 1.0em;
+	margin: 0;
+	padding: 0;
+}
+
+div.QSearch form {
+	margin: 0;
+	padding: 0px;
+}
+
+div.QSearch label{
+	display:none;
+}
+
+div.QSearch input.QSearchFormField{
+	background: white;
+	border: 1px solid #50524e;
+	color: #50524e;
+	margin: 0 5px 0 0;
+	padding: 1px;
+	width: 110px;
+}
+
+div.QSearch input.QSearchSubmit{
+	border: 1px solid #50524e;
+	background: #50524e;
+	color: #fff;
+	cursor: pointer;
+	font-size: 1.05em;
+	font-weight: bold;
+	padding: 1px 0 1px 0;
+	width: 55px;
+}
+
+div.QSearch p {
+	margin: 5px 0 0 0;
+	padding: 0;
+}
+
+p#QSearchPageLink a, p#QSearchPageLink a:visited{
+	background:transparent;
+	color: #50524e;
+	margin: 0;
+	padding: 0;
+}
+
+p#QSearchPageLink a:hover{
+	text-decoration:none;
+}
+
+/* ------------------------ */
+/*  Adnvanced Search Page   */
+/* ------------------------ */
+/* Accessibility Component */
+#searchAccessNav, .searchAccessNav {
+	display:none;
+}
+/* - - - - - - - - - - -- - */
+/*       Search Tabs        */
+/* - - - - - - - - - - -- - */
+h1#searchTitle {
+	margin: 0 0 20px 0;
+}
+
+div.searchBox {
+	margin:0;
+	padding: 0;
+}
+
+form.searchForm {
+	display:block;
+	margin: 0;
+	padding: 0;
+}
+
+div.searchTabBox {
+	border-bottom: 1px solid  #DDD;
+	margin: 0;
+ 	padding: 0 0 1.4em 0;
+}
+
+/* Seatch Tabs at top of Form */
+div.searchTabBox ul {
+	display: block;
+	font-weight:bold;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Search Tab */
+li.SearchTab {
+	background: #628903;
+	border-top: 1px solid  #DDD;
+	border-right: 1px solid  #DDD;
+	border-bottom: 0px solid #EEE;
+	border-left: 1px solid  #DDD;
+	color:white;
+	float:left;
+	list-style:none;
+	margin: 0 1px 0 0;
+	padding: 0px 10px 2px 10px;
+}
+
+li.SearchTab a, li.SearchTab a:visited {
+	background: transparent;
+	color:white;
+	display:block;
+	text-decoration:none;
+}
+
+li.SearchTab a:hover {
+	background:transparent;
+	color:white;
+	text-decoration:underline;
+}
+
+/* Selected Search Tab */
+li.SearchTabSelected {
+	background: #eef3e0;
+	border-top: 1px solid  #DDD;
+	border-right: 1px solid  #DDD;
+	border-bottom: 0px solid #EEE;
+	border-left: 1px solid  #DDD;
+	color: black;
+	float:left;
+	list-style:none;
+	margin: 0 1px 0 0;
+	padding: 0px 10px 2px 10px;
+	z-index:400;
+}
+
+li.SearchTabSelected a, li.SearchTabSelected a:visited {
+	display:block;
+	text-decoration:none;
+}
+
+li.SearchTabSelected a:hover {
+	display:block;
+	text-decoration:underline;
+}
+
+/* - - - - - - - - - - - - - - - - */
+/*           Search Form           */
+/* - - - - - - - - - - - - - - - - */
+div.SearchFormBox {
+	background: #eef3e0;
+	border-top: 0px solid  #DDD;
+	border-right: 1px solid  #DDD;
+	border-bottom: 1px solid  #DDD;
+	border-left: 1px solid  #DDD;
+	color: black;
+	margin: -1px 0 0 0;
+	padding: 5px;
+}
+
+div.SearchFormBox select, div.SearchFormBox input {
+	font-size: 0.90em;
+}
+
+input.searchKeywordInput {
+	font-size: 1.0em;
+}
+
+#columnTwo div.SearchFormBox table{
+	border: 0px solid red;
+	margin: 0;
+	padding: 0;
+	width: 400px;
+}
+
+div.SearchFormBox th {
+	padding: 0;
+}
+
+div.SearchFormBox td{
+	margin: 0;
+	padding: 2px;
+}
+
+span.searchText {
+	font-weight:bold;
+	padding: 0 0px 0 0;
+}
+
+
+
+div.searchLangSelectionlBox {
+	margin:0;
+	padding:0;
+}
+
+span.searchLang {
+	padding: 0 0 0 15px;
+}
+
+div.searchButton {
+	padding:0;
+}
+
+/* - - - - - - - - - - - - - - - - */
+/*           Search Help           */
+/* - - - - - - - - - - - - - - - - */
+div.searchHelpBox {
+	background: #eef3e0;
+	border-top: 0px solid  #DDD;
+	border-right: 1px solid  #DDD;
+	border-bottom: 1px solid  #DDD;
+	border-left: 1px solid  #DDD;
+	color: black;
+	margin: -1px 0 0 0;
+	padding: 10px;
+
+}
+
+div.searchHelpText {
+	background: white;
+	border-top: 1px solid  #DDD;
+	border-right: 1px solid  #EEE;
+	border-bottom: 1px solid  #EEE;
+	border-left: 1px solid  #DDD;
+	color: black;
+	margin: 0;
+	padding: 5px;
+}
+
+ul#searchHelpNavLinks {
+	margin: 10px 0 0 30px;
+	padding: 0 10px 0 10px;
+}
+
+/* this ID is manually added within the help text section of the CMS template */
+div#searchHelp li{
+	padding: 10px 0 10px 0;
+}
+
+
+/* - - - - - - - - - - - - - - - - */
+/*     Search Results Listing      */
+/* - - - - - - - - - - - - - - - - */
+/* Config Option  */
+/* when Search Form hidden - display 'New Search' link */
+div.searchNewSearchLink {
+	font-weight:bold;
+	text-align:right;
+	margin:0;
+	padding:0 10px 0 0;
+}
+
+div.searchNewSearchLink a, div.searchNewSearchLink a:visited {
+	background: #eef3e0;
+	border: 1px solid #DDD;
+	color: #456002;
+	margin: 0;
+	padding: 3px 5px 3px 5px;
+	text-decoration:none;
+	width: 5.0em;
+}
+
+div.searchNewSearchLink a:hover {
+	background: #eef3e0;
+	border: 1px solid #DDD;
+	color: #456002;
+	margin: 0;
+	padding: 3px 5px 3px 5px;
+	text-decoration:underline;
+	width: 5.0em;
+}
+
+/* - - - - - - - - */
+/* Search Results  */
+/* - - - - - - - - */
+h2.searchTotalCount {
+	margin: 5px 0px 0px 0px;
+	padding: 5px;
+}
+
+div.searchResult {
+	margin: 0px;
+	padding: 5px;
+}
+
+div.searchResult ul{
+	margin: 0;
+	padding: 0;
+}
+
+li.SearchResultItem {
+	border-bottom: 1px solid #EEE;
+	display:block;
+	list-style: none;
+	margin: 0px;
+	padding: 5px 0px 5px 0px;
+}
+
+span.searchListNumber {
+	display: block;
+	float:left;
+	margin: 0 5px 0 0;
+	padding:0;
+	width: 20px;
+}
+
+span.SearchResultTitle {
+	margin: 0;
+	padding: 2px;
+}
+
+a.SearchResultLink, a.SearchResultLink:visited {
+	text-decoration: none;
+}
+
+a.SearchResultLink:hover {
+	text-decoration: underline;
+}
+
+p.SearchResultDescription {
+	margin: 0 0 0 30px;
+	padding: 5px;
+}
+
+span.searchLocation {
+	margin: 0 0 0 30px;
+	padding: 4px;
+}
+
+/* - - - - - - - - - - - - - - - - - */
+/* Search Results - Term Hi-lighting */
+/* - - - - - - - - - - - - - - - - - */
+span.searchstring1 {
+	background:#FFFF66;
+	color:#000000;
+	font-weight:bold;
+}
+
+span.searchstring2 {
+	background:#A0FFFF;
+	color:#000000;
+	font-weight:bold;
+}
+
+span.searchstring3 {
+	background:#99FF99;
+	color:#000000;
+	font-weight:bold;
+}
+
+span.searchstring4 {
+	background:#FF9999;
+	color:#000000;
+	font-weight:bold;
+}
+
+/* - - - - - - - - - - - - - - - - */
+/*     Search Results Navigation   */
+/* - - - - - - - - - - - - - - - - */
+div.SearchResultNavTop {
+	background: #eef3e0;
+	border: 1px solid #DDD;
+	color:black;
+	height: 1.4em;
+	margin: 10px 5px 10px 5px;
+	padding: 5px;
+	position:relative;
+}
+
+div.SearchResultNavBottom {
+	background: #eef3e0;
+	border: 1px solid #DDD;
+	color: black;
+	height: 1.4em;
+	margin: 10px 5px 10px 5px;
+	padding: 5px;
+	position:relative;
+}
+
+a.SearchResultNavPrev, a.SearchResultNavPrev:visited {
+	display:block;
+	float:left;
+	padding: 2px 15px 0 0;
+	text-align:right;
+	text-decoration: none;
+	width: 8.0em;
+}
+
+ a.SearchResultNavPrev:hover {
+ 	text-decoration: underline;
+ }
+
+a.SearchResultNavNext, a.SearchResultNavNext:visited {
+	display:block;
+	float:left;
+	padding: 2px 0 0 15px;
+	text-align:left;
+	text-decoration: none;
+	width: 8.0em;
+}
+
+ a.SearchResultNavNext:hover {
+ 	text-decoration: underline;
+ }
+
+a.SearchResultNavBack, a.SearchResultNavBack:visited {
+	border: 1px solid red;
+	display:block;
+	float:left;
+	padding: 0px 2px 0px 2px;
+	text-decoration: none;
+	width: 100px;
+}
+
+ a.SearchResultNavBack:hover {
+ 	text-decoration: underline;
+ }
+
+ul.searchResultNavLinks{
+	display:inline;
+	margin: 0;
+	padding: 0;
+}
+
+ul.searchResultNavLinks li {
+	float: left;
+	list-style:none;
+	margin: 0;
+	text-align:center;
+}
+
+ul.searchResultNavLinks li.SearchResultNav {
+	border: 1px solid #eef3e0;
+	padding: 1px 5px 1px 5px;
+}
+
+ul.searchResultNavLinks li a,ul.searchResultNavLinks li a:visited {
+	text-decoration: none;
+}
+
+ul.searchResultNavLinks li a:hover {
+	text-decoration: underline;
+}
+
+li.SearchResultNavSelected {
+	border: 1px solid green;
+	padding: 1px 5px 1px 5px;
+}
+
+/* - - - - - - - */
+/*  Quick Links  */
+/* - - - - - - - */
+div.QLinks {
+	background: transparent;
+	color: black;
+	float: right;
+	height: 35px;
+	margin: 0 5px 0 0;
+	padding: 0;
+	text-align:center;
+	width: 175px;
+	z-index: 50;
+}
+
+div.QLinks h4 {
+	background: transparent;
+	color: black;
+	font-size: 0.80em;
+	margin: 0;
+	padding: 0;
+	text-align:left;
+}
+
+div.QLinks h4 label{
+	background: #DDE8D7;
+	color: black;
+	padding: 0 2px 0 2px;
+}
+
+div.QLinks form {
+	margin: 0 0 0 10px;
+	padding: 0;
+}
+
+div.QLinks select {
+	font-size: 0.80em;
+}
+
+input.QLinksButton {
+	font-size: 0.75em;
+	margin: 0;
+	padding: 0;
+	text-align:center;
+}
+
+/* - - - - - - - - */
+/* Random Content */
+/* - - - - - - - - */
+div.featurebox {
+	margin: 40px 0 0 450px;
+	padding: 0;
+
+}
+div.featuretitlebox {
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+.featuretitle {
+	margin: 0;
+	padding: 0;
+}
+
+div.featureimg {
+	margin: 0;
+}
+
+div.featureimg p {
+	margin: 0;
+	padding: 5px 5px 10px 5px;
+}
+
+div.featureimg ul {
+	margin: 0;
+}
+
+div.featureimg li {
+	font-weight: normal;
+}
+
+div.featuretext {
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+/* - - - - - - - - - - */
+/*  CSS - Column Box   */
+/* - - - - - - - - - - */
+div.colBox {
+	background: #F0F3F9;
+	border-top: 0 solid #336699;
+	border-right: 1px solid #336699;
+	border-bottom: 1px solid #336699;
+	border-left: 1px solid #336699;
+	color:black;
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+
+div.colBox h4 {
+	background: #336699;
+	color:white;
+	margin: 0;
+	padding: 3px 3px 3px 15px;
+	text-align: left;
+}
+
+div.colBox h4 a, div.colBox h4 a:visited {
+	background:transparent;
+	color: white;
+	display: block;
+	margin: 0;
+	padding: 0;
+	text-decoration:none;
+}
+
+.colBox .colBoxContent {
+	background: #F0F3F9;
+	color:black;
+	padding: 0;
+	margin: 0;
+}
+
+.colBox div.colBoxContent div.colBoxContentR{
+	background: #F0F3F9;
+	color:black;
+	padding: 0 3px 0 0;
+	margin: 0;
+}
+
+.colBoxContentR p {
+	margin: 0;
+	padding: 3px;
+}
+
+.colBoxContentR ul {
+	margin: 0 5px 0 5px;
+	padding: 0;
+}
+
+/* Hide Bullets */
+.colBoxContentR li {
+	border-bottom: 1px dashed #BBB;
+	margin: 0 0 1px 5px;
+	padding: 3px 0 3px 0;
+	list-style: none inside;
+}
+
+/* Hide Bullets */
+.colBoxContentR li img{
+	border: 1px inset #CCC;
+	margin: 0;
+	padding: 0;
+}
+
+/* Display Bullets */
+/*.colBoxContent li {
+	border-bottom: 1px dashed #BBB;
+	margin: 0 0 0 15px;
+	padding: 10px 0 10px 0;
+	list-style: disc outside;
+}*/
+
+.colBoxContentR img {
+	border-width:0;
+}
+
+.colBoxFooter img {
+	border-width:0;
+}
+
+.colBox .colBoxFooter {
+	margin: 0;
+	padding: 0;
+	text-align:right;
+}
+
+.colBox .colBoxFooter a, .colBox .colBoxFooter a:visited {
+	background: transparent;
+	color: black;
+	display:block;
+	margin: 0 0 0 10px;
+	padding: 0 10px 5px 0;
+	text-decoration:none;
+}
+
+.colBox .colBoxFooter a:hover {
+	background: transparent;
+	color: red;
+	display:block;
+	text-decoration: underline;
+}
+
+
+
+/* --------------------------------------------------- */
+/*                 COLUMN SERVICES                     */
+/* --------------------------------------------------- */
+/* (DIV) Container for Column Service - Generic Drop Area */
+.genericdropareabox{
+	margin: 0;
+	padding: 0;
+}
+
+/* - - - - - - - - - - - - - - - - -*/
+/* Column Services : Mini Calendar  */
+/* - - - - - - - - - - - - - - - - -*/
+/* (TABLE) container - Tiny Calendar */
+.tynicaltable {
+	background-color : white;
+	color : #003366;
+	margin-bottom: 5px;
+	border: 1px #204F7E solid;
+	text-align: center;
+	font-size : 1.2em;
+}
+
+/* (TD) container - Tiny Calendar Arrows */
+.tinycalnav {
+	background-color : #f3f7f9;
+	color : #003366;
+	font-weight : bold;
+	padding:1px;
+	text-align : center;
+}
+
+/* (SPAN )  container - Tiny Calenadar Arrows */
+.tinycalarrows,
+.tinycalarrows:visited,
+.tinycalarrows:active {
+	background-color: transparent;
+	color : #003366;
+	font-weight : bolder;
+	padding:1px;
+	text-decoration : none;
+}
+
+/* (TD) container - current Month & Year */
+.tinycalheader {
+	background-color : #f3f7f9;
+	color : #003366;
+	font-weight: bold;
+	padding:1px;
+	text-align : center;
+}
+
+/* (TD) container - current Month & Year */
+.tinycalheader a,.tinycalheader a:visited, .tinycalheader a:hover {
+	background: transparent;
+	color : #003366;
+}
+
+/* (TH) header - Days of Week (1st Initial) */
+.tinydaysofweekdayname {
+	background: #336699;
+	border-top : 1px solid #A6C0D2;
+	border-left : 1px solid #A6C0D2;
+	border-bottom : 1px solid #003366;
+	border-right : 0 solid #003366;
+	color: white;
+	font-weight : bold;
+	font-size : .65em;
+	padding:1px;
+	text-align : center;
+}
+
+/* (A) Link for Tiny Calendar Events  */
+.tinycaleventtext,
+.tinycaleventtext:visited {
+	background-color: transparent;
+	text-decoration : none;
+	color:red;
+	font-weight : normal;
+}
+
+/* (TD) container - Tiny Calendar Days NOT of Month */
+.tinycalemptycell {
+	background-color :white;
+	color:black;
+}
+
+/* (TD) container -Tiny Calendar Days of Month */
+.tinycaldate {
+	background-color : #f3f7f9;
+	border-top : 1px solid #cedbe8;
+	border-left : 1px solid #cedbe8;
+	border-bottom : 1px solid #336699;
+	border-right : 1px solid #336699;
+	color: #003366;
+	padding:1px;
+	font-size : .70em;
+	text-align : center;
+}
+
+/* (TD) container -Tiny Calendar Current Day of Month */
+.tinycalactivedate {
+	background-color : #91b1c7;
+	border: 1px solid red;
+	color: white;
+	padding:1px;
+	font-size : .70em;
+	text-align : center;
+}
+
+li.DayEvents {
+	padding-top: 0;
+	margin-left: -40px;
+}
+
+/* - - - - - - - - - - - - - - - - - */
+/*           Online Poll             */
+/* - - - - - - - - - - - - - - - - - */
+div.poll {
+	background: transparent url(/clf2_ec/commonwebsol/images/ImagesIDI/colBoxIDI_grn_topL.gif) no-repeat top left;
+	color: black;
+	font-size: 1.0em;
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+
+div.poll h4 {
+	background: transparent url(/clf2_ec/commonwebsol/images/ImagesIDI/colBoxIDI_grn_topR.gif) no-repeat top right;
+	color:white;
+	margin: 0 0 0 14px;
+	padding: 4px 0 0 0;
+	text-align:left;
+}
+
+
+p.question {
+	margin: 0;
+	padding: 4px 3px 4px 3px;
+}
+
+div.questionimage p{
+	margin: 0;
+	padding: 0;
+}
+
+div.questionimage img{
+	margin: 0 -5px 0 -5px;
+}
+
+div.choices {
+	border-bottom: 0 solid #CCCCCC;
+}
+
+.pollThankYou {
+	background: transparent;
+	margin: 2px 0 2px 0;
+	padding: 2px;
+	color: red;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+}
+
+form.poll {
+	background-color: #F3F9E8;
+	border: 1px solid #CBE49C;
+	color:black;
+	margin: 0;
+	padding: 5px 10px 5px 10px;
+	text-align:right;
+}
+
+form.poll fieldset {
+	margin: 0;
+	padding: 0;
+}
+
+.pollSubmit {
+	background-color: #4F9828;
+	color: white;
+	font-size: 0.75em;
+	font-weight: bold;
+	margin: 3px;
+	padding: 0;
+}
+
+span.poll label {
+	background: transparent;
+	color: #006633;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - */
+/* Online Poll Mini-results in Col Service */
+/* - - - - - - - - - - - - - - - - - - - - */
+.TableResults {
+	background:transparent;
+	color: #006633;
+	margin: 5px 5px 0 5px;
+}
+
+.pollminiresults {
+	font-weight: normal;
+}
+
+/*tr.pollminiresultrowcolor {}*/
+
+td.pollminiresultsCount {
+	background: White;
+	color:black;
+	width: 50px
+}
+
+td.pollminiresultsCount span {
+	background: White;
+	color: red;
+	display: block;
+	font-size: 0.9em;
+	padding-left: 5px;
+}
+
+td.pollminiresultsVotes {
+	background: transparent;
+	color:black;
+	font-weight: normal;
+	text-align: center
+}
+
+.pollminiresultsViewResults {
+	background: White;
+	color:black;
+	display: block;
+	font-weight: bold;
+	padding-bottom: 2px;
+	text-align: center;
+}
+
+td.pollminiResultsBarGraph {
+	background: White;
+	color:black;
+	margin: 0;
+	padding: 0;
+	width: 75%;
+}
+
+div.poll .colBoxFooter {
+	background: transparent url(/clf2_ec/commonwebsol/images/ImagesIDI/colBoxIDI_grn_bottomL.gif) no-repeat bottom left;
+	margin: 0;
+	padding: 0;
+	text-align:right;
+}
+
+div.poll div.colBoxFooter a, div.poll div.colBoxFooter a:visited {
+	background: transparent url(/clf2_ec/commonwebsol/images/ImagesIDI/colBoxIDI_grn_bottomR.gif) no-repeat bottom right;
+	color: #003F82;
+	display:block;
+	margin: 0 0 0 14px;
+	padding: 5px 10px 5px 0;
+	text-decoration: underline;
+}
+
+div.poll div.colBoxFooter a:hover {
+	background:transparent;
+	color: red;
+	display:block;
+	margin: 0 0 0 14px;
+	padding: 5px 10px 5px 0;
+	text-decoration: underline;
+}
+
+/* - - - - - - - - - - - - - - - */
+/* Online Poll Results           */
+/* - - - - - - - - - - - - - - - */
+p.questionResultsView {
+	font-weight: bold;
+}
+
+.pollResultsTable {
+	margin: 0;
+	width: 98%;
+}
+
+.pollResultsTable th {
+	background:transparent;
+	color: white;
+	white-space: nowrap;
+	padding: 3px 3px 3px 10px;
+}
+
+table.pollResultsTable th#headerOption {
+	background: transparent url(/clf2_ec/commonwebsol/images/ImagesIDI/colBoxIDI_grn_topL.gif) no-repeat top left;
+}
+
+table.pollResultsTable th#headerResultBar {
+	background: #4F9828;
+	color:black;
+}
+
+table.pollResultsTable th#headerResultCount {
+	background: transparent url(/clf2_ec/commonwebsol/images/ImagesIDI/colBoxIDI_grn_topR.gif) no-repeat top right;
+	text-align: right;
+	padding: 3px 10px 3px 3px;
+}
+
+.pollResultRowColor {
+	background-color: #E4F9BE;
+	color:black;
+}
+
+.pollResultRowColor2 {
+	background-color: #E4F9BE;
+	color:black;
+}
+
+td.pollResultOption {
+	min-width: 150px;
+}
+
+td.pollResultOption span{
+	display: block;
+	margin: 0;
+	padding: 5px 0 5px 10px;
+	white-space: nowrap;
+}
+
+td.pollResultsBarGraph {
+	width: 75%
+}
+
+td.pollResultsBarGraph span{
+	display: block;
+	margin: 0;
+	padding: 3px;
+	vertical-align: middle;
+}
+
+.pollResultsBarGraphLeft {
+	background: #336699 url(/clf2_ec/commonwebsol/images/mb2.gif) top left repeat-x;
+	border-top: 1px solid #CCCCCC;
+	border-right: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	border-left: 1px solid #CCCCCC;
+	height:5px;
+	margin: 0;
+	padding: 0;
+}
+
+/*.pollResultsBarGraphRight {
+	height:7px;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}*/
+
+td.pollResultCount {
+	padding: 0 10px 0 0;
+	text-align: right;
+}
+
+td.pollResultCount span{
+	display: block;
+	float: none;
+	margin: 0;
+	padding: 3px 0 3px 25px;
+	text-align: right;
+}
+
+div.pollResultsTotal {
+	background: transparent url(/clf2_ec/commonwebsol/images/ImagesIDI/colBoxIDI_grn_bottomL.gif) no-repeat bottom left;
+	border-top: 1px solid #4F9828;
+	font-weight: bold;
+	height: 21px;
+	margin: 0;
+	text-align:right;
+	width: 98%;
+}
+
+div.pollResultsTotal span{
+	background: transparent url(/clf2_ec/commonwebsol/images/ImagesIDI/colBoxIDI_grn_bottomR.gif) no-repeat bottom right;
+	border-top: 0 solid #4F9828;
+	border-left: 0 solid #4F9828;
+	color: black;
+	display: block;
+	float: right;
+	font-weight: bold;
+	margin: 0;
+	padding: 3px 10px 3px 0;
+	text-align:right;
+	width: 90%;
+}
+
+/* ------------------------ */
+/*        SITEMAP           */
+/* ------------------------ */
+/* NOTE: there is a bug in the sitemap where subpages are not
+nested properly in a single <UL> for that level */
+
+div.sitemap {
+	background: #e9f5d6;
+	border-top: 1px solid #fff !important;
+	border-bottom: 7px solid #cadfaa;
+	color: #456002;
+	margin: 0;
+	padding: 0 0 15px 0;
+	width:98%;
+}
+
+ul.SiteMapUL1 {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li.SiteMapLevel1{
+	margin: 18px 0 18px 0;
+}
+
+li.SiteMapLevel1 a, li.SiteMapLevel1 a:visited {
+	background: #ddecc4;
+	color: #456002;
+	display: block;
+	font-size: 1em;
+	font-weight: bold;
+	margin:0;
+	padding: 5px 0 5px 12px;
+}
+
+li.SiteMapLevel1 a:hover {
+	background: #ddecc4;
+	color: #456002;
+	display: block;
+}
+
+ul.SiteMapUL2 {
+	background:transparent;
+	color: #50524e;
+	margin: 0 0 0 30px;
+	padding: 0 0 5px 0;
+	list-style: inside disc;
+}
+
+li.SiteMapLevel2 {
+	margin: 0;
+	padding: 0;
+}
+
+li.SiteMapLevel2 a, li.SiteMapLevel2 a:visited {
+	background: transparent;
+	font-size: 0.9em;
+	font-weight:normal;
+	color: #50524e;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+li.SiteMapLevel2 a:hover {
+	background: transparent;
+	color: #50524e;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+ul.SiteMapUL3 {
+	background:transparent;
+	color: #50524e;
+	margin: 0 0 0 30px;
+	padding: 0;
+	list-style: circle inside;
+}
+
+li.SiteMapLevel3 {
+	padding: 0 0 5px 0;
+}
+
+li.SiteMaplevel3 a, li.SiteMaplevel3 a:visited {
+	background: transparent;
+	font-size: 0.9em;
+	font-weight:normal;
+	color: #50524e;
+	margin: 0;
+	padding: 5px;
+}
+
+li.SiteMaplevel3 a:hover {
+	background: transparent;
+	color: #50524e;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+/* ------------------------ */
+/*        GLOSSARY          */
+/* ------------------------ */
+div.glossary {
+	background:#E9F5D6 url(/clf2_ec/commonwebsol/images/odow/whiteBar.png) top repeat-x;
+	border-bottom:7px solid #CADFAA;
+	margin: 0;
+	padding: 0 0 15px 0;
+}
+
+/* Glossary - Letter Index (top of page) */
+div.glossaryLetters {
+	background: transparent url(/clf2_ec/commonwebsol/images/odow/bg_titles.png) 0 50% repeat-x;
+	height: 2.45em;
+	margin: 5px 10px 5px 10px;
+	padding: 0 0 0 10px;
+}
+
+div.glossaryLetters ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+div.glossaryLetters ul li{
+	background: transparent url(/clf2_ec/commonwebsol/images/odow/dashGrn.png) 30% 50% no-repeat;
+	display:block;
+	float:left;
+}
+
+li#glossaryLastLetter {
+	background: transparent;
+	color:#C4E626;
+	display:block;
+	float:left;
+}
+
+div.glossaryLetters span{
+	background:transparent;
+	color:#C4E626;
+	display:block;
+	font-weight:bold;
+	margin: 0;
+	padding: 4px 0 4px 0;
+	width: 1.5em;
+}
+
+div.glossaryLetters a, div.glossaryLetters a:visited {
+	background:transparent;
+	color:#FFFFFF;
+	font-weight:bold;
+	display:block;
+	margin: 0;
+	padding: 4px 0 4px 0;
+	width: 1.5em;
+	text-decoration: none;
+}
+
+/* - - - - - - - - - - - - - - - - - */
+/* Glossary - Letter Section Headers */
+/* - - - - - - - - - - - - - - - - - */
+div.glossary h2 {
+	background-color: #ddecc4;
+	color: #637929;
+	font-size: 1.2em;
+	height: 1.5em;
+	margin: 10px 0 10px 0;
+	padding: 6px 12px 0 10px;
+	text-align: left;
+}
+
+div.glossary h2 span {
+	background:transparent;
+	color: #50524e;
+	display: block;
+	float:left;
+	font-weight:bold;
+	width: 20px;
+}
+
+div.glossary h2 a {
+	background:transparent;
+	color: #50524e;
+	display: block;
+	font-size: .75em;
+	font-weight:normal;
+	float:right;
+}
+
+div.glossary h2 a:hover {
+	text-decoration: none;
+}
+
+/* - - - - - - - - - - - - - */
+/* Glossary - List of Terms  */
+/* - - - - - - - - - - - - - */
+div.glossary dl {
+	margin:0;
+	padding: 0 0 0 10px;
+}
+
+div.glossary dt {
+	background:transparent;
+	color: #637929;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+div.glossary dd {
+	margin: 0 0 1.5em 0;
+	padding: 0;
+}
+
+/* --------------------------------- */
+/*  FREQUENTLY ASKED QUESTIONS  V.2  */
+/* --------------------------------- */
+.faqAccessNav {
+	display:none;
+}
+
+.faqIntro {
+	margin: 0;
+	padding: 0;
+}
+
+.faqIntro p{
+	margin: 2px;
+	padding: 0;
+}
+
+div.faqcontainer {
+	background:#E9F5D6 url(/clf2_ec/commonwebsol/images/odow/whiteBar.png) top repeat-x;
+	border-bottom:7px solid #CADFAA;
+	margin: 0;
+	padding: 0 0 15px 0;
+}
+
+h2.faqTopics {
+	background: transparent url(/clf2_ec/commonwebsol/images/odow/bg_titles.png) 0 50% repeat-x;
+	color: white;
+	font-size: 1.2em;
+	margin: 5px 10px 5px 10px;
+	padding: 8px 10px 8px 10px;
+}
+
+ul.faqSectionTitleList {
+	list-style:none;
+	margin: 10px 10px 20px 10px;
+	padding:0;
+}
+
+ul.faqSectionTitleList li{
+	font-weight:bold;
+	margin:0;
+	padding:0;
+}
+
+h2.faqQuestions {
+	background-color: #ddecc4;
+	color: #50524e;
+	font-size: 1.1em;
+	margin: 5px 0 5px 0;
+	padding: 4px 12px 4px 10px;
+}
+
+h3.faqSectionTitle {
+	font-size: 0.9em;
+	margin: 8px 0 8px 10px;
+	padding: 0;
+	text-align: left;
+}
+
+div.faqSection {
+	background:transparent;
+	color: #50524e;
+	margin: 0;
+	padding: 0 0 0 10px;
+}
+
+div.faqSection ul {
+	margin: 5px 0 0 15px;
+	padding: 0;
+}
+
+div.faqSection li {
+	display:block;
+	margin: 0 0 5px 0;
+	padding: 0;
+	list-style-position: outside;
+}
+
+p.faqTopLink {
+	background-color: #ddecc4;
+	color: #637929;
+	font-size: 0.85em;
+	margin: 15px 0 15px 0;
+	padding: 3px 12px 3px 10px;
+}
+
+/* - - - - - - - - - - - */
+/* FAQ - Answers Section */
+/* - - - - - - - - - - - */
+div.faqAnswersIntro {
+	margin: 0 0 10px 10px;
+	padding: 0;
+}
+
+div.faqAnswersIntro p{
+	margin: 2px;
+	padding: 0;
+}
+
+h2.faqAnswersTitle {
+	background-color: #ddecc4;
+	color: #50524e;
+	font-size: 1.1em;
+	margin: 5px 0 5px 0;
+	padding: 4px 12px 4px 15px;
+}
+
+h3.faqAnswersSectionTitle {
+	background: transparent;
+	color: black;
+	font-size: 0.9em;
+	margin: 8px 15px 8px 15px;
+	padding: 0;
+}
+
+div.faqAnswersBox {
+	font-size:0.95em;
+	margin: 0 15px 0 15px;
+	padding: 0 0 0 10px;
+}
+
+p.faqQuestion {
+	font-size: 1.05em;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+div.faqAnswer {
+	margin: 0;
+	padding: 0;
+}
+
+div.faqAnswer p{
+	margin: 0;
+	padding: 4px 0 4px 0;
+}
+
+div.faqAnswer ul {
+	margin: 5px 0 0 20px;
+	padding: 0;
+	text-align: left;
+}
+
+div.faqAnswer li {
+	display:block;
+	margin: 0 0 2px 2px;
+	padding: 0;
+	list-style-position: outside;
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+/* ---------------------------------------------- */
+/* Custom Classes for PRIOTY NEWS box on HOMEPAGE */
+/* ---------------------------------------------- */
+div#prioritynews {
+	background: #FBEBE7 url(/clf2_ec/commonwebsol/images/ODOW/ti_prioritynews_bubble.png) 0 15px no-repeat;
+	border-left:1px solid #C0C0C0;
+	color:#D52800;
+	margin: 0 0 0 50px;
+	padding: 0;
+}
+
+#prioritynews h3{
+	background:url(/clf2_ec/commonwebsol/images/ODOW/ti_prioritynews_noText.png) 0 0 no-repeat;
+	color: #660000;
+	padding:5px;
+	margin: 0 0 15px;
+}
+
+#prioritynews h4, #prioritynews h5{
+	padding: 5px;
+	margin: 5px;
+}
+
+#prioritynews p{
+	background: transparent;
+	color: black;
+	padding: 5px;
+	margin: 5px;
+}
+
+#prioritynews a,#prioritynews a:visited{
+	background:transparent;
+	color:#D52800;
+}
+
+#prioritynews a:hover{
+	text-decoration:none;
+}
+
+/* ------------------------------- */
+/* Custom Classes for HELP webpage */
+/* ------------------------------- */
+div#helpLinks {
+	margin: 0;
+	padding: 0;
+}
+
+div#helpLinks dt{
+	font-weight:bold;
+}
+
+div#helpLinks dd{
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+/* --------------------------------- */
+/* Custom Classes for WHATS NEW box on HOMEPAGE */
+div#whatsNew {
+	border-bottom: 0 !important;
+	margin: 0 !important;
+}
+
+div#whatsNewLinks li a{
+	font-weight: normal !important;
+}
+
+div#whatsNewRecentlyAdded {
+	background: #E9F5D6;
+	border-bottom:7px solid #CADFAA;
+	color:#000000;
+	margin: 0px 0 5px 0 !important;
+	padding: 0 10px 5px 10px;
+}
+
+/*div#whatsNewRecentlyAdded h2 {
+	background: #607726;
+	color:#FFFFFF;
+	font-size: 1.2em;
+	margin: 0 0 10px 0;
+	padding: 8px 10px 8px 10px;
+}
+	*/
+div#whatsNewRecentlyAdded h3 {
+	background: transparent;
+	color: #456002 !important;
+	font-size: 1.05em;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+div#whatsNewRecentlyAdded p{
+	margin: 8px 0 3px 0;
+	padding: 0;
+}
+
+div#whatsNewRecentlyAdded img {
+	border: 3px solid #9EC274;
+	position:relative;
+}
+
+div#whatsNewRecentlyAdded ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+div#whatsNewRecentlyAdded li {
+	display:block;
+	margin: 8px 0 8px 0;
+	padding: 5px;
+}
+
+div#whatsNewRecentlyAdded li.odd {
+	background: #CADFAA;
+	color:black;
+}
+
+div#whatsNewRecentlyAdded a, div.greenBar a:visited {
+	background:url(/clf2_ec/commonwebsol/images/odow/bullet_Arrowgreen.png) 0 .4em no-repeat;
+	color: #0F2900;
+	display: block;
+	padding-left: 8px;
+}
+
+div#whatsNewRecentlyAddeda:hover {
+	background:url(/clf2_ec/commonwebsol/images/odow/bullet_Arrowgreen.png) 0 .4em no-repeat;
+	color:#0F2900;
+	text-decoration: none;
+}
+
+
+
+
+/* --------------------------------- */
+
+
+
+/* -------------- */
+/* Related Links  */
+/* -------------- */
+/* container for Related Links */
+div.relatedLinksBox {
+	background: #CADFAA;
+	color:black;
+	padding: 10px;
+}
+
+div.relatedLinksBox ul{
+	padding: 0;
+	margin: 0;
+}
+
+div.relatedLinksBox li{
+	display:block;
+	list-style: none;
+	margin: 2px 0 2px 0;
+	padding: 5px;
+}
+
+.oddRow {
+	background:#E9F5D6;
+	color:black;
+}
+
+/*.evenRow {}*/
+
+/* Related Links title */
+span.relatedLinksTitle{
+	display:block;
+	font-weight:bold;
+	padding: 0 0 5px 0;
+	margin: 0;
+}
+
+span.relatedLinksTitle a, span.relatedLinksTitle a:visited{
+	background:url(/clf2_ec/commonwebsol/images/odow/bullet_Arrowgreen.png) 0 .4em no-repeat;
+	padding-left: 8px;
+}
+
+span.relatedLinksTitle a:hover{
+	background:url(/clf2_ec/commonwebsol/images/odow/bullet_Arrowgreen.png) 0 .4em no-repeat;
+}
+
+/* Related Links descriptive text */
+p.relatedLinksDescription {
+	padding: 0;
+	margin: 10px 0 5px 0;
+}
+/* Related Links published date */
+span.relatedLinksPubDate {
+	/*display: block;*/
+	font-size: 0.90em;
+	padding-left: 8px;
+}
+/* Related Links author */
+span.relatedLinksAuthor {
+	display: block;
+	text-align:right;
+}
+div.relatedLinksFooter {
+	padding: 2px 5px 0 5px;
+	text-align: right;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - */
+/* Re-usable CSS differnent colored boxes on ODOW*/
+/* --------- */
+/* Green Box */
+/* --------- */
+div.greenBar {
+	background: #E9F5D6 url(/clf2_ec/commonwebsol/images/odow/whiteBar.png) top repeat-x;
+	border-bottom:7px solid #CADFAA;
+	color:#000000;
+	margin: 0 0 10px 0;
+	padding: 0 10px 5px 10px;
+
+}
+
+ div.greenBar h2 {
+	background: #607726 url(/clf2_ec/commonwebsol/images/odow/bg_titles.png) 0 50% repeat-x;
+	color:#FFFFFF;
+	font-size: 1.2em;
+	margin: 0 0 10px 0;
+	padding: 8px 10px 8px 10px;
+}
+
+div.greenBar h3 {
+	background:transparent;
+	color: #456002 !important;
+	font-size: 1.05em;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+div.greenBar p{
+	margin: 8px 0 3px 0;
+	padding: 0;
+}
+
+div.greenBar img {
+	border: 3px solid #9EC274;
+}
+
+div.greenBar ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+div.greenBar li {
+	display:block;
+	margin: 8px 0 8px 0;
+	padding: 5px;
+}
+
+div.greenBar li.odd {
+	background: #CADFAA;
+	color: black;
+}
+
+div.greenBar a, div.greenBar a:visited {
+	background:url(/clf2_ec/commonwebsol/images/odow/bullet_Arrowgreen.png) 0 .4em no-repeat;
+	color: #0F2900;
+	display: block;
+	padding-left: 8px;
+}
+
+div.greenBar a:hover {
+	background:url(/clf2_ec/commonwebsol/images/odow/bullet_Arrowgreen.png) 0 .4em no-repeat;
+	color:#0F2900;
+	text-decoration: none;
+}
+
+
+
+/* --------- */
+/* BLUE BOX  */
+/* --------- */
+div.blueBar {
+	background: #E2F6FF url(/clf2_ec/commonwebsol/images/odow/whiteBar.png) top repeat-x;
+	border-bottom: 7px solid #ADDBF0;
+	color:#000000;
+	margin: 0 0 10px 0;
+	padding: 0 10px 5px 10px;
+}
+
+div.blueBar h2 {
+	background: #0776A1 url(/clf2_ec/commonwebsol/images/ODOW/bg_titles_sectionfeature.png) 0 50% repeat-x;
+	color:#FFFFFF;
+	font-size: 1.2em;
+	margin: 0 0 10px 0;
+	padding: 8px 10px 8px 10px;
+}
+
+div.blueBar h3 {
+	background:transparent;
+	color: #2494c3 !important;
+	font-size: 1.05em;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+div.blueBar p{
+	margin: 8px 0 3px 0;
+	padding: 0;
+}
+
+div.blueBar img {
+	border: 3px solid #72B9D9;
+}
+
+div.blueBar ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+div.blueBar li {
+	display:block;
+	margin: 8px 0 8px 0;
+	padding: 5px;
+}
+
+div.blueBar li.odd {
+	background: #BDE2F3;
+	color:black;
+}
+
+div.blueBar a, div.blueBar a:visited {
+	background: url(/clf2_ec/commonwebsol/images/odow/bullet_Arrowblue.png) 0 .4em no-repeat;
+	color: #010101;
+	display: block;
+	padding-left: 8px;
+}
+
+div.blueBar a:hover {
+	background: url(/clf2_ec/commonwebsol/images/odow/bullet_Arrowblue.png) 0 .4em no-repeat;
+	color: #010101;
+	text-decoration: none;
+}
+/* ------------ */
+/*  ORANGE BOX  */
+/* ------------ */
+div.orangeBar {
+	background: #F3F2E9 url(/clf2_ec/commonwebsol/images/odow/whiteBar.png) top repeat-x;
+	border-bottom: 7px solid #DAD5BF;
+	color:#000000;
+	margin: 0 0 10px 0;
+	padding: 0 10px 5px 10px;
+}
+
+div.orangeBar h2 {
+	background: #D96D01 url(/clf2_ec/commonwebsol/images/odow/bg_titles_recentlyadded.png) 0 50% repeat-x;
+	color:#FFFFFF;
+	font-size: 1.2em;
+	margin: 0 0 10px 0;
+	padding: 8px 10px 8px 10px;
+}
+
+div.orangeBar h3 {
+	background: transparent;
+	color: Maroon !important;
+	font-size: 1.05em;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+div.orangeBar p{
+	margin: 8px 0 3px 0;
+	padding: 0;
+}
+
+div.orangeBar img {
+	border: 3px solid #F3AB4E;
+}
+
+div.orangeBar ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+div.orangeBar li {
+	display:block;
+	margin: 8px 0 8px 0;
+	padding: 5px;
+}
+
+div.orangeBar li.odd {
+	background: #f1d4ab;
+	color:black;
+}
+
+div.orangeBar a, div.orangeBar a:visited {
+	background:url(/clf2_ec/commonwebsol/images/odow/bullet_recentlyadded.png) 0 .4em no-repeat;
+	color:#010101;
+	display:block;
+	padding-left:8px;
+}
+
+div.orangeBar a:hover {
+	background:url(/clf2_ec/commonwebsol/images/odow/bullet_recentlyadded.png) 0 .4em no-repeat;
+	color:#010101;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------ */
+/* In-Page Navigation Links */
+/* ------------------------ */
+/*div.navSublevelLinksBox {}*/
+
+div.navSublevelLinksBox div{
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+/*h3#navSublevelLinksTitle {}*/
+dl.navSublevelLinks {
+	margin:0;
+	padding: 0;
+}
+
+div.navSublevelLinksBox dd {
+	margin: 5px 0 5px 0;
+	padding: 0 0 0 10px;
+}
+div.navSublevelLinksBox dt {
+	margin: 5px 0 0 0;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Section */
+ul#MediaLinks li {
+	margin: 0 0 10px 0;
+}
+
+span.MediaCategory {
+	background: transparent;
+	color: red;
+}
+
+
+
+/* Weather box */
+div#weatherBox {
+	border: 1px solid #DFDFDF;
+	margin-bottom: 10px;
+	padding: 1px;
+}
+#weatherBox h3 {
+	background: url(/clf2_ec/commonwebsol/images/odow/weather_icon.png) 146px 50% no-repeat #fff;
+	color: #50524e;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-align: left;
+	margin: 0;
+	padding: 0px 3px 5px 3px;
+
+	}
+#weatherBox h3:first-line {
+	font-weight: normal;
+	line-height: 20px;
+}
+
+#weatherBox p {
+	background: #F4F7F9;
+	color:black;
+	font-weight: bold;
+	margin: 0;
+	padding: 5px;
+	text-align: left;
+}
+
+
+/* -------------- */
+/*     Footer     */
+/* -------------- */
+div.footerInfo {
+	border-top: 15px solid #DDD;
+	clear:both;
+	height: 30px;
+	padding: 15px 2px 5px 2px;
+}
+
+div#footer ul {
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+div#footer li {
+	list-style: none;
+}
+
+li#lastupdate {
+	float:left;
+}
+
+li#notices {
+	float:right;
+}
+
+li#topofpage {
+/*	background: url(/CommonWebSol/images/ODOW/toparrow.png) 0 50% no-repeat; */ /*contractor version*/
+	background: url(/clf2_ec/commonwebsol/images/odow/toparrow.png) 50% 50% no-repeat;
+	display: inline;
+	height:20px;
+	padding: 20px 0 0 20px;
+}
+
+li#topofpage a, li#topofpage a:visited {
+/*	background: url(/CommonWebSol/images/ODOW/toparrow.png) 100% 50% no-repeat; */ /*contractor version*/
+	color: #2a2a28;
+ 	display: inline;
+	padding: 0 20px 0 0;
+}
+
+li#topofpage a:hover {
+/*	background: url(/CommonWebSol/images/ODOW/toparrow.png) 100% 50% no-repeat; */ /*contractor version*/
+	color: black;
+}
+
+/* - - - - - - - - - - - - - - -*/
+/*  Left ALIGNED UNDER CONTENT  */
+/* - - - - - - - - - - - - - - -*/
+div.footerFormatPage {
+	background: transparent;
+	color:black;
+	clear:both;
+	height: 15px;
+	padding: 5px 2px 5px 2px;
+	width: 100%;
+}
+
+/* remove 150px padding to left align the txtversion and printversion btns */
+li#textVersion {
+	display: block;
+	float:left;
+	font-weight:bold;
+	margin-right: 10px;
+	padding: 0 0 0 160px;
+	width: 10em;
+}
+
+li#textVersion a, li#textVersion a:visited {
+	background: transparent url("/clf2_ec/commonwebsol/images/odow/toolbox_arrow.png") no-repeat left;
+	color: black;
+	display: block;
+	padding: 0 0 0 20px;
+	text-align:left;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+li#textVersion a:hover {
+	padding: 0 0 0 20px;
+	text-decoration: underline;
+}
+
+li#printVersion {
+	display: block;
+	float:left;
+	font-weight:bold;
+	padding: 0 10px 0 0;
+	width: 10em;
+}
+
+li#printVersion a, li#printVersion a:visited {
+	background: transparent url(/clf2_ec/commonwebsol/images/odow/icon_print_30.gif) no-repeat left;
+	color: black;
+	display: block;
+	margin-left: 10px;
+	padding: 0 0 0 40px;
+	text-align:left;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+li#printVersion a:hover {
+	background: transparent url(/clf2_ec/commonwebsol/images/odow/icon_print_r_30.gif) no-repeat left;
+	color: black;
+	padding: 0 0 0 40px;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------- */
+/*  Related Links - Media Room, Speeches, News Releases, Media Advisories */
+/* ---------------------------------------------------------------------- */
+
+div.orangeBar .oddRow {
+	background:#F8E5CC;
+	color: black;
+}
+
+div.orangeBar .evenRow {
+	background:transparent;
+	color:black;
+}
+
+/* Related Links title */
+div.orangeBar span.pressTitle {
+	display:block;
+	font-weight:bold;
+	padding: 0 0 5px 0;
+	margin: 0;
+}
+
+div.orangeBar span.pressTitle a, span.pressTitle a:visited {
+	background:url(/clf2_ec/commonwebsol/images/odow/bullet_Arrowgreen.png) 0 .4em no-repeat;
+	padding-left: 10px;
+}
+
+div.orangeBar span.pressTitle a:hover {
+	background:url(/clf2_ec/commonwebsol/images/odow/bullet_Arrowgreen.png) 0 .4em no-repeat;
+	padding-left: 10px;
+}
+
+/* Related Links descriptive text */
+div.orangeBar p.pressDescription {
+	padding: 0;
+	margin: 10px 0 5px 0;
+}
+/* Related Links published date */
+div.orangeBar span.pressPubDate {
+	font-size: 0.90em;
+}
+/* Related Links author */
+div.orangeBar span.pressAuthor {
+	display: block;
+	text-align:right;
+}
+
+div.orangeBar div.pressFooter {
+	padding: 2px 5px 0 5px;
+	text-align: right;
+}
