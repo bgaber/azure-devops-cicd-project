@@ -34,6 +34,21 @@ This project was completed in five steps:
 
 Solution
 --------
+The final solution is composed of these Azure Services:
+
+| Azure Services Used | Purpose |
+| :-----------------: | :-----: |
+| Resource Group | Container for all Azure Services |
+| App Service Plan | Defines a set of compute resources for the App Service to run |
+| App Service | PAAS HTTP-based service for hosting web applications, REST APIs, and mobile back end |
+| App Service (Slot) | PAAS Production and other environments |
+| Front Door | Cloud CDN with intelligent threat protection | 
+| Virtual network | Project requirement |
+| Storage Account | BLOB Storage Container to store JSON, image and audo objects |
+| Application Insights | Monitor Function that writes documents to Cosmos DB |
+| CosmosDB | NoSQL Database that contains the JSON User Objects |
+| Function App | Functions to write JSON documents to Cosmos DB and retrieve JSON documents from Cosmos DB |
+| DevOps | CICD of the PHP Web Application |
 
 
 Example Output
