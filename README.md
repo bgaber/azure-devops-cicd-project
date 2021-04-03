@@ -3,9 +3,9 @@
 
 Goal
 ----
-The objective of this project wasto create a web application that’s scalable and robust, as well as a stable deployment pipeline for the application.
+The objective of this project was to create a web application that’s scalable and robust, as well as a stable deployment pipeline for the application.
 
-The objective was achieved by designing and building a DevOps CICD Pipeline using Azure DevOps Pipeline, ARM Templates, App Service, Front Door, Blob Storage, Cosmos DB, and Virtual Network services from Azure.
+The objective was achieved by designing and building a DevOps CICD Pipeline using Azure DevOps Pipeline, ARM Templates, App Service, Front Door, Blob Storage, Cosmos DB, Functions and Virtual Network services from Azure.
 
 Outcome
 -------
@@ -26,10 +26,11 @@ This project was completed in five steps:
   * API type should be Core (SQL)
 3. Using an ARM Template, create a Storage Account with Blob Storage.
 4. Create a simple web application and use GitHub as source control.
-5. Use YAML to create a pipeline in Azure DevOps with the following components:
+5. Created Functions to connect Web App to Blob Storage and Cosmos DB.
+6. Use YAML to create a pipeline in Azure DevOps with the following components:
   * It should build the web application
-  * If built successfully, run the tests.
-  * If tests pass, deploy the application to the “staging” deployment slot for the Azure App Service created in step 1.
+  * If built successfully, run the tests.  ** NOT YET IMPLEMENTED **
+  * If tests pass, deploy the application to the “staging” deployment slot for the Azure App Service created in step 1. ** NOT YET IMPLEMENTED **
 
 
 Solution
