@@ -27,7 +27,7 @@ steps:
     php -version
   displayName: 'Use PHP version $(phpVersion)'
 
-- script: composer install --no-interaction --prefer-dist --working-dir=php
+- script: composer install --no-interaction --prefer-dist
   displayName: 'composer install'
 
 # add these as the last steps (below all the other `task` items under `steps`)
