@@ -195,7 +195,7 @@ function upload_using_azure_storage_sdk() {
 	    
     // Upload JSON to Azure
     //$connectionString = "DefaultEndpointsProtocol=https;AccountName=".getenv('ACCOUNT_NAME').";AccountKey=".getenv('ACCOUNT_KEY');
-	$connectionString = "DefaultEndpointsProtocol=https;AccountName=cloudsavestorage;AccountKey=qjQo0fAdeD9ie34XJFUHeTlbp485eLQTVw4AZml223vJbKgmWELOWvqBeU/pj828BXNzHrgEZMTj8EMLcGiphg==;EndpointSuffix=core.windows.net"; //Enter deployment key
+	//Enter deployment key
 
     // Create blob client.
     $blobClient = BlobRestProxy::createBlobService($connectionString);
