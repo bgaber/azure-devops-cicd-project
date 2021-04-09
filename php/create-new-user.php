@@ -195,6 +195,7 @@ function upload_using_azure_storage_sdk() {
 	    
     // Upload JSON to Azure
     //$connectionString = "DefaultEndpointsProtocol=https;AccountName=".getenv('ACCOUNT_NAME').";AccountKey=".getenv('ACCOUNT_KEY');
+    $connectionString = getenv("BLOB_STORAGE_CONN_STR");
 	//Enter deployment key
 
     // Create blob client.
